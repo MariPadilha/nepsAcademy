@@ -1,0 +1,6 @@
+altura = int(input())
+largura = int(input())
+piso2 = ((altura-1)*2) + ((largura - 1)*2)
+piso1 = (largura * altura) + ((altura-1)*(largura-1))
+print(piso1)
+print(piso2)
