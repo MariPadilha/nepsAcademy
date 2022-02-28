@@ -1,0 +1,8 @@
+n = int(input())
+word = input()
+a = word.count('a')
+e = word.count('e')
+i = word.count('i')
+o = word.count('o')
+u = word.count('u')
+print(a+e+i+o+u)
