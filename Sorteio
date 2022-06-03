@@ -1,0 +1,5 @@
+n = int(input())
+a = input().split(' ')
+print(a[0])
+print(a[int(n/2)-1]) if n % 2 == 0 else print(a[int(n/2)])
+print(a[-1])
